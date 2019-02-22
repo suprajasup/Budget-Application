@@ -1,9 +1,12 @@
 
 from django.contrib import admin
-from .models import Project,Expense,Category
-
+from .models import *
 
 admin.site.register(Project)
-admin.site.register(Expense)
+
+
 admin.site.register(Category)
-# Register your models here.
+
+
+admin.site.register(Expenses)
+
